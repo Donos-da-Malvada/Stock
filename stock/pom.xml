@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>stock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>stock</name>
 	<description>Demo project for stock</description>
@@ -63,6 +63,21 @@
             <version>13.0</version>
             <scope>compile</scope>
         </dependency>
+		<dependency>
+			<groupId>com.graphql-java-kickstart</groupId>
+			<artifactId>graphql-spring-boot-starter</artifactId>
+			<version>11.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.graphql-java-kickstart</groupId>
+			<artifactId>graphql-java-tools</artifactId>
+			<version>11.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.graphql-java</groupId>
+			<artifactId>graphql-java</artifactId>
+			<version>14.0</version>
+		</dependency>
     </dependencies>
 
 	<build>

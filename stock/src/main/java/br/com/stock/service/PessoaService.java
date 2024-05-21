@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package br.com.stock.service;
 
-import com.example.demo.model.entity.Pessoa;
-import com.example.demo.repository.PessoaRepository;
+import br.com.stock.model.entity.Pessoa;
+import br.com.stock.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

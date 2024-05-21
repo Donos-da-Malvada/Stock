@@ -1,0 +1,15 @@
+type Query {
+    pessoas: [Pessoa]
+    pessoaById(id: ID!): Pessoa
+}
+
+type Pessoa {
+    id: ID
+    nome: String
+    cpf: String
+}
+
+type Mutation {
+    createPessoa(nome: String!, cpf: String!): Pessoa
+}
+

@@ -1,4 +1,4 @@
-package com.example.demo.model.DTO;
+package br.com.stock.model.DTO;
 
 import jakarta.persistence.*;
 import lombok.Getter;
